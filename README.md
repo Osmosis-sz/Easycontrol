@@ -49,7 +49,8 @@ app_process -Djava.class.path=" + serverName + " / com.daitj.easycontrolfork.ser
       + " serverPort=" + device.serverPort
       + " listenClip=" + (device.listenClip ? 1 : 0)
       + " isAudio=" + (device.isAudio ? 1 : 0)
-      
+      + " maxSize=" + device.maxSize
+      + " maxFps=" + device.maxFps
       + " maxVideoBit=" + device.maxVideoBit
       + " keepAwake=" + (device.keepWakeOnRunning ? 1 : 0)
       + " supportH265=" + ((device.useH265 && supportH265) ? 1 : 0)
