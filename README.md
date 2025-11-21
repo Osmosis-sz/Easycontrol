@@ -9,8 +9,7 @@ I just wanted to build something myself because of the sensitive nature of the t
 # Easycontrol Fork
 Remote control your android phone using another android phone, this uses scrcpy's server code which was modified by original author to work with this application. 
 
-
-
+There are bunch of options you can change for a device while adding a device, remember to check those carefully.
 
 **This has been tested to work on Android Phone (Android 9+) and Philips Android TV (based on Android 11 for TV) only if you are using Android device in your car, or VR headset like (Quest) or some other Android device it might change some screen awake time, screen resolution settings which can break the device**
 
